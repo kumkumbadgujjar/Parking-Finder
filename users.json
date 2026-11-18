@@ -1,23 +1,24 @@
 {
-    "users": [
-        {
-            "username": "kumkum",
-            "password": "1234"
-        },
-        {
-            "username": "mahek",
-            "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
-            "email": "kumkumbadgujjar@gmail.com"
-        },
-        {
-            "username": "cse24",
-            "password": "205e9495af4a71f334be95c5484c10ea7535948050ba99d236713058a3661d23",
-            "email": "cse24@gmail.com"
-        },
-        {
-            "username": "Anmol00",
-            "password": "d385077fb4b9bf9ac46484e8b47bc3ccc90e9fbea778085c00d4abe688b0db79",
-            "email": "rajbadgujjar@gmail.com"
-        }
-    ]
+  "users": [
+    {
+      "username": "kumkum",
+      "password": "1234",
+      "email": "kumkum@parkingfinder.local"
+    },
+    {
+      "username": "mahek",
+      "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "email": "kumkumbadgujjar@gmail.com"
+    },
+    {
+      "username": "cse24",
+      "password": "205e9495af4a71f334be95c5484c10ea7535948050ba99d236713058a3661d23",
+      "email": "cse24@gmail.com"
+    },
+    {
+      "username": "Anmol00",
+      "password": "d385077fb4b9bf9ac46484e8b47bc3ccc90e9fbea778085c00d4abe688b0db79",
+      "email": "rajbadgujjar@gmail.com"
+    }
+  ]
 }

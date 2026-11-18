@@ -1,0 +1,5 @@
+{
+  "name": "Smart Parking Finder",
+  "description": "Smart Parking Finder web application migrated from Python Tkinter, featuring OTP demo auth, location search, Overpass API parking discovery, distance ranking, and interactive Leaflet map view.",
+  "requestFramePermissions": ["geolocation"]
+}

@@ -1,0 +1,378 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  background-color: #0f172a;
+  color: #0f172a;
+}
+
+/* Auth Screen */
+.auth-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f172a;
+  padding: 24px 16px;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+  background: #ffffff;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 32px 28px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+  text-align: center;
+}
+
+.brand-pill {
+  display: inline-block;
+  background-color: #ecfdf5;
+  color: #059669;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 5px 12px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.auth-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.auth-subtitle {
+  margin: 6px 0 18px;
+  font-size: 14px;
+  color: #64748b;
+}
+
+/* Minimal Main Screen */
+.main-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8fafc;
+}
+
+.topbar {
+  background-color: #0f172a;
+  color: #ffffff;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.topbar-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.user-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: #cbd5e1;
+  margin-right: 6px;
+}
+
+.content-area {
+  flex: 1;
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 18px 20px;
+}
+
+.find-header-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.find-location-info {
+  flex: 1;
+  min-width: 240px;
+}
+
+.find-location-title {
+  margin: 0 0 4px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.find-location-sub {
+  margin: 0;
+  font-size: 13px;
+  color: #64748b;
+}
+
+.field {
+  margin-bottom: 14px;
+  text-align: left;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.input {
+  width: 100%;
+  padding: 9px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background-color: #f8fafc;
+  color: #0f172a;
+  font-size: 14px;
+}
+
+.input:focus {
+  outline: 2px solid #10b981;
+  border-color: #10b981;
+}
+
+.pwd-row {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 9px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.15s ease, opacity 0.15s ease;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn-lg {
+  padding: 13px 26px;
+  font-size: 15px;
+}
+
+.btn-green {
+  background-color: #10b981;
+  color: #ffffff;
+}
+
+.btn-green:hover:not(:disabled) {
+  background-color: #059669;
+}
+
+.btn-navy {
+  background-color: #1e293b;
+  color: #ffffff;
+}
+
+.btn-navy:hover:not(:disabled) {
+  background-color: #334155;
+}
+
+.btn-danger {
+  background-color: #7f1d1d;
+  color: #fecaca;
+}
+
+.btn-danger:hover:not(:disabled) {
+  background-color: #991b1b;
+  color: #ffffff;
+}
+
+.btn-light {
+  background-color: #e2e8f0;
+  color: #0f172a;
+}
+
+.btn-light:hover:not(:disabled) {
+  background-color: #cbd5e1;
+}
+
+.btn-link {
+  background: transparent;
+  color: #1e293b;
+  padding: 6px;
+}
+
+.btn-full {
+  width: 100%;
+}
+
+.workspace-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 16px;
+  align-items: start;
+}
+
+.map-container {
+  width: 100%;
+  height: 360px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+
+.table-wrap {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.parking-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.parking-table th {
+  background-color: #1e293b;
+  color: #ffffff;
+  text-align: left;
+  padding: 10px 12px;
+  font-size: 13px;
+}
+
+.parking-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #e2e8f0;
+  color: #0f172a;
+}
+
+.parking-table tbody tr {
+  cursor: pointer;
+}
+
+.parking-table tbody tr:hover {
+  background-color: #f1f5f9;
+}
+
+.parking-table tbody tr.selected {
+  background-color: #d1fae5;
+}
+
+.detail-row {
+  background-color: #f8fafc;
+  border-radius: 6px;
+  padding: 9px 12px;
+  margin-bottom: 8px;
+}
+
+.detail-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: #64748b;
+  text-transform: uppercase;
+}
+
+.detail-val {
+  font-size: 14px;
+  color: #0f172a;
+  margin-top: 2px;
+  word-break: break-word;
+}
+
+.banner-error {
+  padding: 10px 14px;
+  background-color: #fee2e2;
+  border: 1px solid #fca5a5;
+  color: #991b1b;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.banner-success {
+  padding: 10px 14px;
+  background-color: #dcfce7;
+  border: 1px solid #86efac;
+  color: #166534;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.password-card {
+  max-width: 440px;
+  width: 100%;
+  margin: 24px auto;
+}
+
+@media (max-width: 860px) {
+  .workspace-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.spinner {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #cbd5e1;
+  border-top-color: #10b981;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+.spinner-light {
+  border-color: rgba(255, 255, 255, 0.35);
+  border-top-color: #ffffff;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
